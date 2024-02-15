@@ -1,0 +1,21 @@
+.background-image {
+	background-image: url('../../utilImages/javier-kober-L5wFsLfp0GY-unsplash.jpg');
+	background-size: cover;
+	background-position: center;
+	min-height: 80vh;
+	display: flex;
+	flex-direction: row;
+	height: 80%;
+	align-items: center;
+	justify-content: center;
+	padding: 16px;
+}
+
+.paper-container {
+	padding: 16px;
+	background-color: rgba(255, 255, 255, 0.7);
+	width: 80%;
+	height: 80%;
+	max-width: 900px;
+	max-height: 700px;
+}

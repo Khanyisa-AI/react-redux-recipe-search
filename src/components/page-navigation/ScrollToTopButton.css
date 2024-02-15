@@ -1,0 +1,21 @@
+.scroll-to-top {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-color: #4a8bd1;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: opacity 0.3s;
+}
+
+.scroll-to-top.visible {
+	display: block;
+}
+
+.scroll-to-top:hover {
+	opacity: 0.8;
+}
